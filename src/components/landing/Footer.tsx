@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Facebook, Instagram, Twitter, Smartphone, Lock, Shield, CheckCircle, Trophy, Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer: React.FC = () => {
@@ -13,9 +14,11 @@ const Footer: React.FC = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-1 mb-1">
               <div className="w-40 h-40 flex items-center justify-center">
-                <img 
+                <Image 
                   src="/logo/color catledan.svg" 
                   alt="CATLEDAN Logo" 
+                  width={56}
+                  height={56}
                   className="h-14 w-auto filter brightness-0 invert"
                 />
               </div>

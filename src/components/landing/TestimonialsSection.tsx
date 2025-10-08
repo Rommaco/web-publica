@@ -109,7 +109,7 @@ const TestimonialsSection: React.FC = () => {
               className="flex transition-transform duration-500 ease-in-out"
               style={{ transform: `translateX(-${currentSlide * 100}%)` }}
             >
-              {testimonials.map((testimonial, index) => (
+              {testimonials.map((testimonial) => (
                 <div key={testimonial.id} className="w-full flex-shrink-0 px-2">
                   <div className={`bg-gradient-to-br ${
                     testimonial.color === 'green' ? 'from-green-50 to-green-100 border-green-200' :
@@ -138,7 +138,7 @@ const TestimonialsSection: React.FC = () => {
                     </div>
                     
                     <blockquote className="text-gray-700 mb-6 leading-relaxed">
-                      "{testimonial.quote}"
+                      &ldquo;{testimonial.quote}&rdquo;
                     </blockquote>
                     
                         <div className="grid grid-cols-3 gap-4 text-center">

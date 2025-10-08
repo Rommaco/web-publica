@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Button from '@/components/ui/Button';
 
 const Header: React.FC = () => {
@@ -37,9 +38,11 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <div className="flex items-center justify-center">
-              <img 
+              <Image 
                 src="/logo/color catledan.svg" 
                 alt="CATLEDAN Logo" 
+                width={48}
+                height={48}
                 className="h-12 w-auto"
               />
             </div>

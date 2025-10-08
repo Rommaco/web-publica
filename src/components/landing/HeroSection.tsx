@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import Button from '@/components/ui/Button';
 import Counter from '@/components/ui/Counter';
 import ScrollReveal from '@/components/ui/ScrollReveal';
@@ -123,9 +124,11 @@ const HeroSection: React.FC = () => {
                 <div className="flex items-center justify-between mb-4 sm:mb-6">
                   <div className="flex items-center space-x-2 sm:space-x-3">
                     <div className="w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center">
-                      <img 
+                      <Image 
                         src="/logo/color catledan.svg" 
                         alt="CATLEDAN" 
+                        width={24}
+                        height={24}
                         className="h-4 sm:h-6 w-auto"
                       />
                     </div>

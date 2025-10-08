@@ -32,8 +32,9 @@ export const useCounter = (
     }
 
     return () => {
-      if (elementRef.current) {
-        observer.unobserve(elementRef.current);
+      const currentElement = elementRef.current;
+      if (currentElement) {
+        observer.unobserve(currentElement);
       }
     };
   }, [isVisible, threshold]);

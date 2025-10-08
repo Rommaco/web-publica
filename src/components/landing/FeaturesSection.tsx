@@ -53,11 +53,11 @@ const FeaturesSection: React.FC = () => {
                     <ul className="space-y-3">
                       <li className="flex items-center">
                         <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
-                        <span className="text-gray-700"><strong>Día 60 automático:</strong> "Preparar vaca para inseminación"</span>
+                        <span className="text-gray-700"><strong>Día 60 automático:</strong> &ldquo;Preparar vaca para inseminación&rdquo;</span>
                       </li>
                       <li className="flex items-center">
                         <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
-                        <span className="text-gray-700"><strong>Celos en tiempo real:</strong> "CLAUDIA en celo - Acción inmediata"</span>
+                        <span className="text-gray-700"><strong>Celos en tiempo real:</strong> &ldquo;CLAUDIA en celo - Acción inmediata&rdquo;</span>
                       </li>
                       <li className="flex items-center">
                         <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
